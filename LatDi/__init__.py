@@ -7,6 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1TTfk-CtfdnB0BAfhzgBMLvwDlJYLBfEX
 """
 
-from LatDi.complexdimensionalityreduction import create_complex_feature
-from LatDi.complexdimensionalityreduction import squeeze_to_complex
-from LatDi.complexdimensionalityreduction import CDR
+from LatDi import create_complex_feature
+from LatDi import squeeze_to_complex
+from LatDi import CDR
