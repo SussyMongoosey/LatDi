@@ -11,7 +11,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.1'
+VERSION = '0.0.4'
 DESCRIPTION = 'Lateral Dimensionality Reduction'
 LONG_DESCRIPTION = 'Reduce the number of features in a pandas DataFrame by a squeezing the numerical features to half as many complex valued features'
 
@@ -26,7 +26,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     install_requires=['pandas', 'numpy'],
-    keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets'],
+    keywords=['python', 'pandas', 'numpy', 'feature engineering', 'dimensionality reduction'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
